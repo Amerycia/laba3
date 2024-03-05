@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+.lab_work{
+    text-align: center;
+    padding: 200px 0;
+}
+
+.lab_work p{
+  font-size: 20px;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 150px 0 0;
+    font-size: 20px;
+}
+
+.task{
+    padding: 200px 0 0 50px;
+
+}
+
+footer p span .left{
+    display: flex;
+}
+
+footer p span .right{
+    display: flex;
+}
+
+footer p{
+    font-size: 20px;
+    padding: 100px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}

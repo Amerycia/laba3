@@ -1,0 +1,21 @@
+/* Псевдоклассы для div и p */
+div:hover {
+    background-color: rgb(23, 185, 101);
+    color: rgb(214, 244, 220);
+  }
+  
+  p:first-child {
+    font-weight: bold;
+  }
+  
+  /* Псевдоэлементы для div и p */
+  div::before {
+    content: "Начало: ";
+    color: rgb(45, 255, 17);
+  }
+  
+  p::after {
+    content: " Конец.";
+    font-style: italic;
+  }
+  

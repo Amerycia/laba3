@@ -1,0 +1,27 @@
+p{
+    width: 30%;
+}
+
+.the_f{
+background-color: beige;
+}
+
+.the_s{
+    background-color: rgba(238, 167, 96, 0.7);
+}
+
+.the_th{
+    background-color: #37f9ab;
+}
+
+.the_for{
+    background-image: url('./image.png');
+}
+
+.the_fif{
+    background: linear-gradient(to right, #9d02c8,  #fbf5fd);
+}
+
+.the_si{
+    background: linear-gradient(to left, #0f0113,  #88f906);
+}

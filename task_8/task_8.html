@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./task_8.css">
+    <title>Фізична розмітка</title>
+</head>
+<body>
+    <div class="beggin">
+<p>
+        Тег <span lang="en">b</span> <b>- виділяє текст жирним</b>
+    </p>
+<p>
+    Тег <span lang="en">bdi:</span>
+    <bdi>שבת</bdi> — субота
+    </p>
+<p>
+        Тег <bdo dir="rtl"><b>Тег відображується справа наліво</b></bdo>
+    </p>
+<p>
+        Це звичайний текст<br />
+        <i>Курсивний текст</i>
+    </p>
+</div>
+    <div class="rainbow">
+<p class="perecresleno">
+    Це звичайний текст<br />
+        <s>Перекреслений текст</s>
+    </p>
+<p class="small">
+        Звичайний розмір шрифта <small>Текст, що помістили у тег <span lang="en">small - </span> <small>текст поміщений у вкладений тег <span lang="en">small</span></small></small>        
+    </p>
+<p class="big">
+    Звичайний розмір шрифта <big>Текст, що помістили у тег <span lang="en">big - </span><big>текст поміщений у вкладений тег <span lang="en">big</span></big></big>
+    </p>
+<p class="sup">
+    Звичайний розмір шрифта <sup>верхній індек <sup>вкладений верхній індекс</sup></sup>
+    </p>
+ <p class="sub">
+    Звичайний розмір шрифта <sub>нижній індекс <sub>вкладений нижній індекс</sub></sub>
+    </p>
+<!-- 
+        Тег meter используется для вывода числовых значений в заданном диапазоне. (HTML5)
+        Имеет следующие атрибуты:
+            - value - заданное значение.
+            - min - минимально возможное значение.
+            - max - максимально возможное значение.
+            - low - задает предел, при достижении которого значение считается низким.
+            - high - задает предел, при достижении которого значение считается высоким.
+            - optimum - определяет наилучшее значение.
+      -->
+      <div class="progress">
+    <p>Тиск</p>
+    <meter value="105" max="100" min="0" low="10" high="60">Значення датчика занизькі</meter>
+<!-- 
+        Тег используется для отображения прогресса. (HTML5)
+        - value - текущее значение.
+        - max   - максимальное значение.
+      -->
+    <p>Тег <span lang="en">progress:</span><br>
+        Зачекайте, йде завантаження файлів</p>
+    <progress value="78" max="100">
+       Завантажено на <span id="value">78</span>%
+    </progress>
+</p>
+</div>
+<p class="span">
+    Тег <span lang="en">span</span> використовується для виділення <span>фрагментів тексту</span> і дозволяє задати їм стильове оформлення.
+</p>
+</div>
+</body>
+</html>
